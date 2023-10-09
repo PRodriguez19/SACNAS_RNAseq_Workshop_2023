@@ -8,5 +8,54 @@ This repository has teaching materials for an Introduction to RNA-sequencing dat
 1. Understand the necessity for, and use of, the command line interface (bash) and HPC for analyzing high-throughput sequencing data.
 2. Understand best practices for designing an RNA-seq experiment and analysis the resulting data.
 
-## New Class Schedule 
+## Workshop Schedule 
 [Workshop schedule](/schedule/README.md)
+
+## Additional Resources
+
+For an overview of bioinformatics, the tools required for RNA-seq analysis and high perfomance computing, see these tutorials (the HPC parts will vary depending on your local cluster):  
+
+[Bioinformatics Training](https://hbctraining.github.io/main/)  
+[High Performance Computing](https://jhudatascience.org/Computing_for_Cancer_Informatics/)  
+[RNA-seq analysis](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/schedule/links-to-lessons.html)  
+[Informatics Technology for Cancer Research Training Network Courses](https://www.itcrtraining.org/resources/courses)  
+[R for Data Science](https://r4ds.had.co.nz/introduction.html)  
+
+Need help with Unix?  
+
+[Unix Cheat Sheet](https://www.stationx.net/unix-commands-cheat-sheet/)  
+[Vim - command line text editor](https://vim.rtorr.com/)  
+[Common commands](https://www.thegeekstuff.com/2010/11/50-linux-commands/)  
+
+Need help with R/RStudio?  
+
+[R/RStudio](https://hbctraining.github.io/Intro-to-R-flipped/schedules/links-to-lessons.html)
+[R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) - from CRAN
+[Stack Overflow](https://stackoverflow.com/)
+[dplyr Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+[ggplot2 Cheat Sheet](https://www.maths.usyd.edu.au/u/UG/SM/STAT3022/r/current/Misc/data-visualization-2.1.pdf)
+
+Multiple RNAseq comparisons/ DESeq2:  
+
+[Differential Expression Analysis](https://combine-australia.github.io/RNAseq-R/06-rnaseq-day1.html)  
+[Overview](https://hbctraining.github.io/DGE_workshop/lessons/01_DGE_setup_and_overview.html#:~:text=The%20goal%20of%20differential%20expression%20analysis%20is%20to%20determine%2C%20for,observed%20within%20groups%20(replicates).)  
+
+Non-model organisms:  
+
+[Full-length transcriptome assembly from RNA-seq data without a reference genome](https://www.nature.com/articles/nbt.1883)  
+
+FASTQC and multiQC  
+
+[FastQC video](https://www.youtube.com/watch?v=bz93ReOv87Y)
+
+Introduction to Nextflow and workflow management:  
+
+[Nextflow video](https://www.youtube.com/watch?v=wbtMbJTo1xo)
+[Nextflow Documentation](https://www.nextflow.io/docs/latest/getstarted.html)
+
+Here are some resources for publically available gene expression data:  
+
++ for published datasets available through NCBI: [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/gds/)
++ for tissue specific expression and a GUI to interact with the data: [GTEx Portal](https://gtexportal.org/home/)
++ for cancer specific datasets (with lots of clinical/phenotypic data): [The Cancer Genome Atalas (TCGA)](https://portal.gdc.cancer.gov/exploration?filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22TCGA%22%5D%7D%7D%5D%7D) and [the GUI for TCGA data, Xena](https://xena.ucsc.edu/) (you can also upload your own data!)
++ UCSC genome browser allows you to explore gene expression along the genome: [UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr19:20362090-20371940&hgsid=1712548524_ClekHC2SfK9XMjfyzkayZRNPV8ck)
