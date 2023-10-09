@@ -1,12 +1,12 @@
-# Class Schedule
+# Workshop Schedule
 
-## Tuesday, February 7th 
+## Friday, October 27th 
 
 | Time |  Topic  |  
 |:-----------:|:----------| 
-| ~5 mins| General Overview Unit 2| 
-| ~20 mins| [Final Project Overview](../lectures/GuidelinesforFinalProject.pdf) | 
-| ~40 mins | [Introduction to RNA-seq & Experimental Design](../lectures/Lecture4-MMG232.pdf) |
+| ~15 mins| Module 1: RNAseq experimental setup and considerations| 
+| ~10 mins| [Module 2: Post sequencing processing steps](../lectures/GuidelinesforFinalProject.pdf) | 
+| ~40 mins | [Module 3: Hands-on portion of workshop](../lectures/Lecture4-MMG232.pdf) |
 
 
 ***
