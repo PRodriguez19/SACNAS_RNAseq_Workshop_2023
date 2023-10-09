@@ -55,7 +55,7 @@ Introduction to Nextflow and workflow management:
 
 Here are some resources for publically available gene expression data:  
 
-    1. for published datasets available through NCBI: [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/gds/)
-    2. for tissue specific expression and a GUI to interact with the data: [GTEx Portal](https://gtexportal.org/home/)
-    3. for cancer specific datasets (with lots of clinical/phenotypic data): [The Cancer Genome Atalas (TCGA)](https://portal.gdc.cancer.gov/exploration?filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22TCGA%22%5D%7D%7D%5D%7D) and [the GUI for TCGA data, Xena](https://xena.ucsc.edu/) (you can also upload your own data!)
-    4. UCSC genome browser allows you to explore gene expression along the genome: [UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr19:20362090-20371940&hgsid=1712548524_ClekHC2SfK9XMjfyzkayZRNPV8ck)
++ for published datasets available through NCBI: [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/gds/)
++ for tissue specific expression and a GUI to interact with the data: [GTEx Portal](https://gtexportal.org/home/)
++ for cancer specific datasets (with lots of clinical/phenotypic data): [The Cancer Genome Atalas (TCGA)](https://portal.gdc.cancer.gov/exploration?filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22TCGA%22%5D%7D%7D%5D%7D) and [the GUI for TCGA data, Xena](https://xena.ucsc.edu/) (you can also upload your own data!)
++ UCSC genome browser allows you to explore gene expression along the genome: [UCSC genome browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr19:20362090-20371940&hgsid=1712548524_ClekHC2SfK9XMjfyzkayZRNPV8ck)
