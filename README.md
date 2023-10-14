@@ -22,12 +22,12 @@ These materials are intended to provide a **quick overview** of the RNA-Seq data
 | Time |  Topic  |  
 |:-----------:|:----------| 
 | ~15 mins| Module 1: RNAseq experimental setup and considerations| 
-| ~10 mins| [Module 2: Post sequencing processing steps](lectures/GuidelinesforFinalProject.pdf) | 
+| ~10 mins| [Module 2: Post sequencing processing steps](lectures/SACNAS_102023.pdf) | 
 | ~40 mins | [Module 3: Hands-on portion of workshop] |
 
 ### Dataset
 
-Download the R project and data for this workshop [here](data/SACNAS-RNAseq-Workshop-2023.zip). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
+Download the R project and data for this workshop [here](https://github.com/PRodriguez19/SACNAS_RNAseq_Workshop_2023/blob/main/data/SACNAS-RNAseq-Workshop-2023.zip?raw=true). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
 
 ### Installation Requirements
 
