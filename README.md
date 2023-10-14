@@ -1,15 +1,67 @@
 # SACNAS_RNAseq_Workshop_2023
 
+| Audience | Computational skills required | Duration |
+:----------|:----------|:----------|
+| Biologists | None | 75 minute workshop |
+
 ## Description 
-This repository has teaching materials for an Introduction to RNA-sequencing data analysis. This unit focuses on teaching basic computational skills to enable the effective use of an high-performance computing environment to implement an RNA-seq data analysis workflow. In addition to running the RNA-seq workflow from FASTQ files to count data, this unit covers best practice guidelines for RNA-seq experimental design and data organization/management.
+This repository has teaching materials for a **75 minute**, hands-on **Introduction to RNA-Seq analysis with R/RStudio** workshop led at a quick pace. R is a simple programming environment that enables the effective handling of data, while providing excellent graphical support. RStudio is a tool that provides a user-friendly environment for working with R. 
+
+These materials are intended to provide a **quick overview** of the RNA-Seq data analysis, starting from processed counts files.  
 
 ## Learning Objectives 
 
-1. Understand the necessity for, and use of, the command line interface (bash) and HPC for analyzing high-throughput sequencing data.
-2. Understand best practices for designing an RNA-seq experiment and analysis the resulting data.
+* **Best practices**: Understand best practices for designing an RNA-seq experiment 
+* **Processing steps**: Un
+* **R syntax**: Understand different 'parts of speech' in R; including variables and functions, demonstrating how functions work, and modifying arguments for specific use cases.
+*  **Using GO terms to explore enriched processes:** Determining how functions are attributed to genes using Gene Ontology terms
+* **Exporting data**: Generating new data tables for use outside of the R environment.
 
-## Workshop Schedule 
-[Workshop schedule](/schedule/README.md)
+### Contents
+
+| Time |  Topic  |  
+|:-----------:|:----------| 
+| ~15 mins| Module 1: RNAseq experimental setup and considerations| 
+| ~10 mins| [Module 2: Post sequencing processing steps](../lectures/GuidelinesforFinalProject.pdf) | 
+| ~40 mins | [Module 3: Hands-on portion of workshop] |
+
+### Dataset
+
+Download the R project and data for this workshop [here](../data/SACNAS-RNAseq-Workshop-2023.zip). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
+
+### Installation Requirements
+
+Download R and RStudio for your laptop:
+
+ - [R](http://lib.stat.cmu.edu/R/CRAN/) 
+ - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+ 
+Install the required R packages by running the following code in RStudio:
+
+```r
+# Install CRAN packages
+install.packages(c("BiocManager", "RColorBrewer", "tidyverse", "devtools", "pheatmap",  ))
+
+# Install Bioconductor packages
+BiocManager::install(c("clusterProfiler", "DESeq2", "org.Hs.eg.db", "EnhancedVolcano", "biomaRt", "enrichplot"))
+```
+
+Load the libraries to make sure the packages installed properly:
+
+```r
+library(DESeq2) 
+library(RColorBrewer)
+library(pheatmap)
+library(ggplot2)
+library(EnhancedVolcano)
+library(biomaRt)
+library(clusterProfiler)
+library(org.Hs.eg.db)
+library(enrichplot)
+```
+
+> **NOTE:** The library used for the annotations associated with genes (here we are using `org.Hs.eg.db`) will change based on organism (e.g. if studying mouse, would need to install and load `org.Mm.eg.db`). The list of different organism packages are given [here](https://github.com/hbctraining/Training-modules/raw/master/DGE-functional-analysis/img/available_annotations.png).
+
 
 ## Additional Resources
 
