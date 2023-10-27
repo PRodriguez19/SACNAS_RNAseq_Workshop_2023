@@ -87,9 +87,13 @@ Need help with Unix?
 Need help with R/RStudio?  
 
 [R/RStudio](https://hbctraining.github.io/Intro-to-R-flipped/schedules/links-to-lessons.html)
+
 [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) - from CRAN
+
 [Stack Overflow](https://stackoverflow.com/)
+
 [dplyr Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+
 [ggplot2 Cheat Sheet](https://www.maths.usyd.edu.au/u/UG/SM/STAT3022/r/current/Misc/data-visualization-2.1.pdf)
 
 Multiple RNAseq comparisons/ DESeq2:  
