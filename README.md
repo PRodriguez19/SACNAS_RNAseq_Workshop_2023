@@ -5,7 +5,7 @@
 | SACNAS Attendees | None | 75 minute workshop |
 
 ## Description 
-This repository has learning materials for a **75 minute**, hands-on **Introduction to RNA-Seq analysis with R/RStudio** workshop. R is a simple programming environment that enables the effective handling of data, while providing excellent graphical support. RStudio is a tool that provides a user-friendly environment for working with R. 
+This repository has learning materials for a **75 minute**, hands-on **Introduction to RNA-Seq analysis with R/RStudio** workshop. R is a simple programming environment that enables the effective handling of data while providing excellent graphical support. RStudio is a tool that provides a user-friendly environment for working with R. 
 
 These materials are intended to provide a **general overview** of the RNA-Seq data analysis, starting from processed counts files.  
 
@@ -13,9 +13,9 @@ These materials are intended to provide a **general overview** of the RNA-Seq da
 
 * **Best practices**: Understand best practices for designing an RNA-seq experiment 
 * **Processing steps**: Understand the processing steps from an FASTQ to counts file 
-* **R syntax**: Understand general R syntax; including variables and functions, demonstrating how functions work, and modifying arguments with specific functions.
-*  **Using GO terms to explore enriched processes:** Determine how functions are attributed to genes using Gene Ontology terms
-* **Exporting data**: Generating tables of differentially expressed genes to be further investigated 
+* **R syntax**: Understand general R syntax including variables, functions, and arguments
+*  **Using GO terms to explore enriched processes:** Determine pathways for DEGs using Gene Ontology terms
+* **Exporting data**: Generate tabular outputs of DEGs to be further investigated and visualized 
 
 ### Contents
 
@@ -23,11 +23,12 @@ These materials are intended to provide a **general overview** of the RNA-Seq da
 |:-----------:|:----------| 
 | ~10 mins| Module 1: RNAseq experimental setup and considerations| 
 | ~10 mins| Module 2: Post sequencing processing steps | 
-| ~50 mins | Module 3: Hands-on portion of workshop |
+| ~40 mins | Module 3: Hands-on portion of workshop |
+|~15 mins | Questions from attendees | 
 
 ### Workshop Slides 
 
-The slides presented for Module 1 and 2 can be found [here]
+The slides presented in Module 1 and 2 can be found [here](
 
 ### Dataset
 
