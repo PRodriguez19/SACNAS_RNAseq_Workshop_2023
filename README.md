@@ -63,6 +63,7 @@ library(biomaRt)
 library(clusterProfiler)
 library(org.Hs.eg.db)
 library(enrichplot)
+library(tidyverse)
 ```
 
 > **NOTE:** The library used for the annotations associated with genes (here we are using `org.Hs.eg.db`) will change based on organism (e.g. if studying mouse, would need to install and load `org.Mm.eg.db`). The list of different organism packages are given [here](https://github.com/hbctraining/Training-modules/raw/master/DGE-functional-analysis/img/available_annotations.png).
