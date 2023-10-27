@@ -88,7 +88,7 @@ Need help with R/RStudio?
 
 [R/RStudio](https://hbctraining.github.io/Intro-to-R-flipped/schedules/links-to-lessons.html)
 
-[R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) - from CRAN
+[R for Beginners](https://education.rstudio.com/learn/beginner/) 
 
 [Stack Overflow](https://stackoverflow.com/)
 
