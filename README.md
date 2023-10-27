@@ -28,7 +28,7 @@ These materials are intended to provide a **general overview** of the RNA-Seq da
 
 ### Workshop Slides 
 
-The slides presented in Module 1 and 2 can be found [here](
+The slides presented in Module 1 and 2 can be found [here](https://github.com/PRodriguez19/SACNAS_RNAseq_Workshop_2023/blob/main/lecture/SACNAS_102023.pdf)
 
 ### Dataset
 
