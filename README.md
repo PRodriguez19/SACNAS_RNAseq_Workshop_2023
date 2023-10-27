@@ -32,7 +32,7 @@ The slides presented in Module 1 and 2 can be found [here](lecture/SACNAS_102023
 
 ### Dataset
 
-Download the R project and data for this workshop [here](https://github.com/PRodriguez19/SACNAS_RNAseq_Workshop_2023/blob/main/data/SACNAS-RNAseq-Workshop-2023.zip?raw=true). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
+Download the R project and data for this workshop [here](https://github.com/PRodriguez19/SACNAS_RNAseq_Workshop_2023/blob/main/data/SACNAS_data.zip?raw=true). Decompress and move the folder to the location on your computer where you would like to perform the analysis.
 
 ### Installation Requirements
 
